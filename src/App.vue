@@ -6,6 +6,7 @@
     <MarketmakingComponent />
     <M1 />
     <AboutCompany />
+    <FooterComponent />
   </div>
 </template>
 
@@ -18,6 +19,8 @@ import M1 from "./components/SecondIntro.vue";
 
 import AboutCompany from "./components/AboutCompanySite.vue";
 
+import FooterComponent from "./components/FooterComponent.vue";
+
 export default {
   name: "App",
   components: {
@@ -27,6 +30,7 @@ export default {
     MarketmakingComponent,
     M1,
     AboutCompany,
+    FooterComponent,
   },
 };
 </script>

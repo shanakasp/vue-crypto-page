@@ -1,7 +1,7 @@
 <template lang="">
   <div>
     <div
-      class="w-full md:w-[1056px] h-auto md:h-[889.39px] relative mx-auto px-4 md:px-0"
+      class="w-full md:w-[1056px] h-auto md:h-[889.39px] relative mx-auto px-5 md:px-0 md:top-20"
     >
       <!-- Title -->
       <div
