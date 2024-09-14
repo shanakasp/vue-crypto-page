@@ -4,15 +4,16 @@
     <Intro />
     <AboutGravity />
     <MarketmakingComponent />
+    <M1 />
   </div>
 </template>
 
 <script>
-import NavBar from "./components/NavBar";
-import MarketmakingComponent from "./components/MarketmakingComponent";
-
-import Intro from "./components/Intro";
 import AboutGravity from "./components/AboutGravity";
+import Intro from "./components/Intro";
+import MarketmakingComponent from "./components/MarketmakingComponent";
+import NavBar from "./components/NavBar";
+import M1 from "./components/SecondIntro.vue";
 
 export default {
   name: "App",
@@ -21,6 +22,7 @@ export default {
     Intro,
     AboutGravity,
     MarketmakingComponent,
+    M1,
   },
 };
 </script>
