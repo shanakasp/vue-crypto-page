@@ -5,6 +5,7 @@
     <AboutGravity />
     <MarketmakingComponent />
     <M1 />
+    <AboutCompany />
   </div>
 </template>
 
@@ -15,6 +16,8 @@ import MarketmakingComponent from "./components/MarketmakingComponent";
 import NavBar from "./components/NavBar";
 import M1 from "./components/SecondIntro.vue";
 
+import AboutCompany from "./components/AboutCompanySite.vue";
+
 export default {
   name: "App",
   components: {
@@ -23,6 +26,7 @@ export default {
     AboutGravity,
     MarketmakingComponent,
     M1,
+    AboutCompany,
   },
 };
 </script>
